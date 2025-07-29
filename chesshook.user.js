@@ -1453,7 +1453,7 @@
     getEngineMove();
   }
 
-  window[namespace].updateLoop = setInterval(updateLoop, 20);
+  window[namespace].updateLoop = setInterval(updateLoop, 200);
 
   document.addEventListener('readystatechange', () => {
     if (document.readyState === 'interactive') {
