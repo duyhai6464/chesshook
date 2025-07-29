@@ -1450,9 +1450,7 @@
       renderThreats();
     }
 
-    if (!vs.queryConfigKey(namespace + '_legitmode') && vs.queryConfigKey(namespace + '_whichengine') !== 'none') {
-      getEngineMove();
-    }
+    getEngineMove();
   }
 
   window[namespace].updateLoop = setInterval(updateLoop, 20);
